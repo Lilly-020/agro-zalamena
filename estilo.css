@@ -1,0 +1,135 @@
+/*COR DE FUNDO*/
+*{
+    background-color: #b2d3c2;
+    
+}
+/*PARA NÃO DEIXAR A COR DE FUNDO FICAR POR CIMA DOS ITENS DO MENU*/
+.bloco_1 h1, nav, img#img_color{
+    display: flex;
+    background-color: #607d3b;
+}
+/*ESTILIZANDO O MENU*/
+.bloco_1 {
+    background-color: #607d3b;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    border-radius: 2rem 2rem;
+    font-style: italic;
+    font-size: 150%;
+}
+/*ESTILIZANDO OS LINKS DO MENU E TITULO*/
+nav a {
+    background-color: #607d3b;
+    margin: 0 10%; 
+    color: #333d25;
+    font-size: 2rem;
+    text-decoration: none;
+}
+/*COR AO PASSAR PELO LINK DO MENU*/
+nav a:hover {
+    color: rgb(74, 212, 123);
+}
+/*FONTE E COR DOS TITULOS*/
+h1, h2 {
+    color: #3a5311; 
+    font-size: 200%;      
+}
+/*ALIENAR TEXTO COM IMAGEM*/
+.descricao {
+    display: flex;  
+    flex-direction: row;
+    align-items: center;
+}
+/*ESTILO DOS TITULOS E TEXTOS EM GERAL*/
+.bloco_4, h1, h2, ul, li{
+    background-color: #98bf64;
+    border-radius: 10rem 10rem;
+    text-align: center;
+    list-style: none;
+    font-style: italic;
+}
+/*FOOTER*/
+div footer{
+    text-align: center;
+    padding: 5px;
+    background-color: #728c69;
+    border-radius: 20px;
+    
+}
+/*DETALHES DOS TEXTOS*/
+p{
+    padding: 0 30px;
+    font-size: 150%;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* Mobile view */
+@media (max-width: 768px){
+    /*COR DE FUNDO*/
+    *{
+        background-color: #b2d3c2;
+    
+    }
+    /*PARA NÃO DEIXAR A COR DE FUNDO FICAR POR CIMA DOS ITENS DO MENU*/
+    .bloco_1 h1, nav, img#img_color{
+        display: flex;
+        background-color: #607d3b;      
+    }
+    /*ESTILIZANDO O MENU*/
+    .bloco_1 {
+        background-color: #607d3b;
+        padding: 0 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 2rem 2rem;
+        font-style: italic;
+        font-size: 150%;
+    }
+    /*ESTILIZANDO OS LINKS DO MENU E TITULO*/
+    nav a {
+        background-color: #607d3b;
+        margin: 10px 15px; 
+        color: #333d25;
+        font-size: 2rem;
+        text-decoration: none;
+    }
+    /*COR AO PASSAR PELO LINK DO MENU*/
+    nav a:hover {
+        color: rgb(74, 212, 123);
+    }
+    /*FONTE E COR DOS TITULOS*/
+    h1, h2 {
+        color: #3a5311; 
+        font-size: 200%;      
+    }
+    /*ALIENAR TEXTO COM IMAGEM*/
+    .descricao {
+        display: flex;  
+        flex-direction: row;
+        align-items: center;
+    }
+    /*ESTILO DOS TITULOS E TEXTOS EM GERAL*/
+    .bloco_4, h1, h2, ul, li{
+        background-color: #98bf64;
+        border-radius: 10rem 10rem;
+        text-align: center;
+        list-style: none;
+        font-style: italic;
+    }
+    /*FOOTER*/
+    div footer{
+        text-align: center;
+        padding: 5px;
+        background-color: #728c69;
+        border-radius: 20px;
+        
+    }
+    /*DETALHES DOS TEXTOS*/
+    p{
+        padding: 0 30px;
+        font-size: 150%;
+        font-family: "Lucida Console", "Courier New", monospace;
+    }
+}
